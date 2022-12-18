@@ -1,0 +1,39 @@
+.payments_tab_form {
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+}
+.payment__tab_header {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(92, 15, 15);
+  margin: 10px;
+  margin-top: 20px;
+}
+.form_row {
+  color: rgb(92, 15, 15);
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.pt_next_button {
+  padding: 6px !important;
+  width: 150px !important;
+  border-radius: 6px !important;
+  border: none !important;
+  background-color: brown !important;
+  cursor: pointer !important;
+  color: white !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  font-size: 15px !important;
+}
+.payments_input {
+  border-radius: 6px;
+  border: 1px solid;
+  width: calc(100% - 14px);
+  padding: 6px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+}

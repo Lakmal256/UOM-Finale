@@ -1,0 +1,85 @@
+.home_payments_form {
+  width: 335px;
+  margin: auto;
+  margin-top: 20px;
+}
+.online_payment_label {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(92, 15, 15);
+}
+.hp_form {
+  margin: auto;
+}
+.form_row {
+  color: rgb(92, 15, 15);
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.select_category_label {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.internal_button_main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.internal_button {
+  padding: 6px;
+  width: 150px;
+  border-radius: 6px;
+  border: none;
+  background-color: brown;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+}
+.external_button {
+  padding: 6px;
+  width: 150px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: brown;
+  border-color: brown;
+  border: 1px solid;
+  font-weight: 700;
+}
+.next_button_main {
+  display: flex;
+  justify-content: flex-end;
+  width: 335px;
+  margin: auto;
+}
+.next_button {
+  padding: 6px !important;
+  width: 150px !important;
+  border-radius: 6px !important;
+  border: none !important;
+  background-color: brown !important;
+  cursor: pointer !important;
+  color: white !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  font-size: 15px !important;
+}
+.select_menu {
+  border-radius: 6px;
+  border: 1px solid;
+  width: 100%;
+  padding: 6px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.select_button {
+  border-radius: 6px;
+  border: 1px solid;
+  width: calc(100% - 14px);
+  padding: 6px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 20px;
+}

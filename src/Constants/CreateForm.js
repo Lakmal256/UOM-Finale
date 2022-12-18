@@ -1,0 +1,48 @@
+export const CREATE = [
+    {
+      id: "firstName",
+      name: "firstName",
+      label: "First Name",
+      className: "create_input",
+      type: "text",
+      disabled: false,
+      show: true,
+    },
+    {
+      id: "lastName",
+      name: "lastName",
+      label: "Last Name",
+      className: "create_input",
+      type: "text",
+      disabled: false,
+      show: true,
+    },
+    {
+      id: "userName",
+      name: "userName",
+      label: "User Name",
+      className: "create_input",
+      type: "email",
+      disabled: false,
+      show: true,
+    },
+    {
+      id: "password",
+      name: "password",
+      label: "Password",
+      className: "create_input",
+      type: "password",
+      disabled: false,
+      show: true,
+    },
+    {
+      id: "confirmPassword",
+      name: "confirmPassword",
+      label: "Confirm Password",
+      className: "create_input",
+      type: "password",
+      disabled: false,
+      show: true,
+    },
+  ];
+  
