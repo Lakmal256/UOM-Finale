@@ -1,5 +1,5 @@
 import Dialog from "@mui/material/Dialog";
-import "../Dashboard.css";
+import "../ComponentStyles/receiptsDialog.css";
 import Transfer from "../images/transfer.png";
 import { VIEW } from "../Constants/ViewReceiptsForm";
 import React from "react";
@@ -15,19 +15,21 @@ const ReceiptDialog = ({ open, handleClose }) => {
         <div className="receipts_image_main">
           <img className="receipts_image" src={Transfer} alt="firespot" />
         </div>
-        <div className="title-heading">
-          <div className="sign-in">Payment Successfull !!!</div>
+        <div className="payment_successfull_main">
+          <div className="payment_successfull_label">
+            Payment Successfull !!!
+          </div>
         </div>
         <div className="receipts_dialog_main">
           <div className="receipts_data_main">
             {VIEW.map((field) => {
               return (
                 <div className="data_row_flex" key={field.left.id}>
-                  <div className="form_row-left">
-                    <div className="form-label-left">{field.left.label}</div>
+                  <div>
+                    <div className="form_label_left">{field.left.label}</div>
                   </div>
-                  <div className="form_row-right">
-                    <div className="form-label-right">{field.right.label}</div>
+                  <div>
+                    <div className="form_label_right">{field.right.label}</div>
                   </div>
                 </div>
               );

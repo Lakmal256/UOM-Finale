@@ -45,6 +45,15 @@
   width: 650px;
   margin: auto;
 }
+.profile_input {
+  border-radius: 6px;
+  border: 1px solid;
+  width: 300px;
+  padding: 6px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+}
 .form_row {
   color: rgb(92, 15, 15);
   font-weight: bold;
