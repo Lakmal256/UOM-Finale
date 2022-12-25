@@ -1,4 +1,4 @@
-import * as React from "react";
+import {React , useState} from "react";
 import PropTypes from "prop-types";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -21,6 +21,11 @@ const ResponsiveDrawer = () => {
   const history = useNavigate();
 
   const menuItems = ["Payments", "Profile", "Receipts", "Help", "Logout"];
+
+  const [activeIndex, setActiveIndex] = useState(null);
+  const handleClick = (index) => {
+    setActiveIndex(index);
+  };
 
   const setIcon = (item) => {
     switch (item) {
@@ -46,10 +51,10 @@ const ResponsiveDrawer = () => {
   const drawer = (
     <div>
       <List>
-        {menuItems.map((text) => (
+        {menuItems.map((text, index) => (
           <ListItem
-            className="drawer_list_item"
-            onClick={() => setRoute(text)}
+            onClick={() => {setRoute(text) ; handleClick(index) ; }}
+            className={index === activeIndex ? "active" :"drawer_list_item"}
             key={text}
             disablePadding
           >
